@@ -1,0 +1,41 @@
+main {
+    background-color: #ffffff;
+    color: black;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+tr:nth-child(odd) {
+    background-color: #858585;
+}
+tr:nth-child(even) {
+    background-color: #d6d6d6;
+}
+
+td {
+    padding: 20px;
+    word-wrap: break-word;
+    max-width: 190px;
+    max-height: 300px;
+}
+td.titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+tr.cabeca {
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+}
+
+button.excluir {
+   width: 100px;
+}
